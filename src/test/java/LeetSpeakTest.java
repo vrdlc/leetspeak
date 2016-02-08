@@ -27,5 +27,11 @@ public class LeetSpeakTest {
     assertEquals("1gl00", leetSpeak.isLeetSpeak("Igloo"));
   }
 
+  @Test
+  public void isLeetSpeak_replaceEverySWithZ_wordChanges() {
+    LeetSpeak leetSpeak = new LeetSpeak();
+    assertEquals("r0z3z", leetSpeak.isLeetSpeak("roses"));
+  }
+
 //NO toUpper OR toLower
 }

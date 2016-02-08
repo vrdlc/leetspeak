@@ -8,7 +8,8 @@ public class LeetSpeak{
     public String isLeetSpeak(String word) {
       String e = word.replace('e', '3');
       String o = e.replace('o','0');
-      return o.replace('I', '1');
+      String capitalI = o.replace('I', '1');
+      return capitalI.replace('s', 'z');
 
     }
 }
