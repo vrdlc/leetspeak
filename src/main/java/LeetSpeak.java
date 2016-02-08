@@ -7,7 +7,8 @@ public class LeetSpeak{
     //define method
     public String isLeetSpeak(String word) {
       String e = word.replace('e', '3');
-      return e.replace('o','0');
+      String o = e.replace('o','0');
+      return o.replace('I', '1');
 
     }
 }
