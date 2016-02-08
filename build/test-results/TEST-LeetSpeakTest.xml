@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LeetSpeakTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2016-02-08T23:12:40" hostname="epicodus-59.local" time="0.002">
+<testsuite name="LeetSpeakTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2016-02-08T23:21:10" hostname="epicodus-59.local" time="0.002">
   <properties/>
-  <testcase name="isLeetSpeak_replaceEveryEWith3_wordChanges" classname="LeetSpeakTest" time="0.002">
-    <failure message="org.junit.ComparisonFailure: expected:&lt;[ele]phant&gt; but was:&lt;[3l3]phant&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[ele]phant&gt; but was:&lt;[3l3]phant&gt;
+  <testcase name="isLeetSpeak_replaceEveryEWith3_wordChanges" classname="LeetSpeakTest" time="0.0"/>
+  <testcase name="isLeetSpeak_returnsAStringAsIsWhenNoLeetspeakIsPresent_wordDoesntChange" classname="LeetSpeakTest" time="0.0"/>
+  <testcase name="isLeetSpeak_replaceEveryOWith0_wordChanges" classname="LeetSpeakTest" time="0.001">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[0]liphant&gt; but was:&lt;[o]liphant&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[0]liphant&gt; but was:&lt;[o]liphant&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
-	at LeetSpeakTest.isLeetSpeak_replaceEveryEWith3_wordChanges(LeetSpeakTest.java:15)
+	at LeetSpeakTest.isLeetSpeak_replaceEveryOWith0_wordChanges(LeetSpeakTest.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -51,7 +53,6 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <testcase name="isLeetSpeak_returnsAStringAsIsWhenNoLeetspeakIsPresent_wordDoesntChange" classname="LeetSpeakTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -12,7 +12,13 @@ public class LeetSpeakTest {
   @Test
   public void isLeetSpeak_replaceEveryEWith3_wordChanges() {
     LeetSpeak leetSpeak = new LeetSpeak();
-    assertEquals("elephant", leetSpeak.isLeetSpeak("3l3phant"));
+    assertEquals("3l3phant", leetSpeak.isLeetSpeak("elephant"));
+  }
+
+  @Test
+  public void isLeetSpeak_replaceEveryOWith0_wordChanges() {
+    LeetSpeak leetSpeak = new LeetSpeak();
+    assertEquals("0liphant", leetSpeak.isLeetSpeak("oliphant"));
   }
 
 
