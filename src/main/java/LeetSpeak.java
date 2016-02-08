@@ -6,6 +6,8 @@ public class LeetSpeak{
 
     //define method
     public String isLeetSpeak(String word) {
-      return word.replace('e', '3');
+      String e = word.replace('e', '3');
+      return e.replace('o','0');
+
     }
 }
