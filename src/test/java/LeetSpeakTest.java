@@ -9,4 +9,11 @@ public class LeetSpeakTest {
     assertEquals("happy", leetSpeak.isLeetSpeak("happy"));
   }
 
+  @Test
+  public void isLeetSpeak_replaceEveryEWith3_wordChanges() {
+    LeetSpeak leetSpeak = new LeetSpeak();
+    assertEquals("elephant", leetSpeak.isLeetSpeak("3l3phant"));
+  }
+
+
 }
