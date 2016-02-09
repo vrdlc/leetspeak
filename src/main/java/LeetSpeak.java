@@ -9,7 +9,17 @@ public class LeetSpeak{
       String e = word.replace('e', '3');
       String o = e.replace('o','0');
       String capitalI = o.replace('I', '1');
-      return capitalI.replace('s', 'z');
 
-    }
+      char[] array = capitalI.toCharArray();
+
+      for (char character : array) {
+
+      if (character.valueOf('s').equals(0)) {
+      return character;
+      } else {
+        String test = character.toString();
+      return test.replace('s', 'z');
+      }
+}
+}
 }

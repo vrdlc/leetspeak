@@ -30,7 +30,7 @@ public class LeetSpeakTest {
   @Test
   public void isLeetSpeak_replaceEverySWithZ_wordChanges() {
     LeetSpeak leetSpeak = new LeetSpeak();
-    assertEquals("r0z3z", leetSpeak.isLeetSpeak("roses"));
+    assertEquals("suzan", leetSpeak.isLeetSpeak("susan"));
   }
 
 //NO toUpper OR toLower
